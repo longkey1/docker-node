@@ -1,7 +1,7 @@
 .DEFAULT_GOAL := help
 
 repo := node
-tags := latest slim 11.2 11.9 13.2 13.8 15.3 15.12
+tags := latest slim 11.2 11.9 13.2 13.8 15.3 15.11 15.12
 
 define build_git_branch
 	git checkout master
