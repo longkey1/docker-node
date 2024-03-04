@@ -1,4 +1,4 @@
-FROM node:latest
+FROM node:14
 
 # Fix frontend not set error
 ARG DEBIAN_FRONTEND=noninteractive
